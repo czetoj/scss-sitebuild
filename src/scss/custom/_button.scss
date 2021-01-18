@@ -1,0 +1,19 @@
+.cus--btn {
+    padding:  0.7rem 2.5rem;
+    border: 1px solid $cus-white;
+    border-radius: 20px;
+    color: $cus-white;
+    background-color: transparent;
+    font-size: 0.7rem;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: $cus-yellow;
+        border: 1px solid $cus-yellow;
+        cursor: pointer;
+    }
+}
+
+a {
+    text-decoration: none;
+}

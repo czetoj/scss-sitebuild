@@ -1,0 +1,7 @@
+@function var($string, $data: $config) {
+    $keys: get-keys($string);
+    @each $key in $keys {
+        $data: map-get($data, $key)   // belemegyünk abba a map-ba, ahol az adat van, először pl. a theme map, így jutunk el végül a hexidecimális értékhez
+    }
+    @return $data;
+}

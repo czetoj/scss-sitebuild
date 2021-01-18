@@ -1,0 +1,13 @@
+.cus--mobil {
+    height: 75vh;
+
+    &-img1 {
+        height: 100%;
+        position: relative;
+    }
+
+    &-img2 {
+        position: absolute;
+        height: 58%;
+    }
+}

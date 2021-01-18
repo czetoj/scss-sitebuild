@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.justify-content-start {
+    justify-content: start;
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-start {
+    align-items: start;
+}
+.flex-md-row {
+    @media (min-width: 992px) {
+        flex-direction: row;
+    }
+}

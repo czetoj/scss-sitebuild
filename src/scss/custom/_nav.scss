@@ -1,0 +1,109 @@
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 100;
+    color: $cus-yellow;
+
+    &:hover {
+        color: black;
+    }
+
+    @media (max-width: 992px) {
+        .navbar-brand {
+            font-size: 1rem;
+        }
+    }
+}
+
+.newage {
+    padding-top: 10vh; 
+}
+
+@media (max-width: 992px) {
+    .cus--nav-h1 {
+        font-size: 1.5rem;
+    } 
+}
+
+.nav {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 10vh;
+    
+
+    &__container {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
+
+        @media screen and (min-width: 992px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &__list {
+        display: none;
+        flex-direction: column;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+
+        @media screen and (min-width: 992px) {
+            display: flex;
+            flex-direction: row;
+            width: auto;
+        }
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__link {
+        color: $cus-yellow;
+        display: block;
+        font-size: 1rem;
+        line-height: 1rem;
+        padding: 1rem;
+        text-decoration: none;
+
+        &:hover {
+            color: black;
+            background: white;
+        }
+    }
+    &__hamburger {
+        &-checkbox {
+            display: none;
+
+            &:checked + .nav__list {
+                display: flex;
+            }
+        }
+
+        &-label {
+            align-items: center;
+            display: flex;
+            cursor: pointer;
+            height: 1.5rem;
+            width: 1.5rem;
+            padding: 0.75rem;
+            flex-wrap: wrap;
+
+            @media screen and (min-width: 992px) {
+                display: none;
+            }
+        }
+
+        &-line {
+            background-color: black;
+            display: block;
+            height: 2px;
+            width: 1.5rem;
+        }
+    }
+}

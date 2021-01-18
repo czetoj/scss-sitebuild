@@ -1,0 +1,16 @@
+.cus--cta {
+    height: 38rem;
+    background-image: url('../img/bg-cta.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
+}
+.cta-h1 {
+    font-size: 4.5rem;
+    margin: 0;
+
+    @media (max-width: 992px) {
+        font-size: 2.5rem;
+    }
+}

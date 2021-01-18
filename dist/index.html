@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egyedi CSS keretrendszer</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="d-flex flex-column">
+        <nav class="nav">
+            <div class="nav__container">
+                <a class="navbar-brand" href="/index.html">Start Bootstrap</a>
+                <div>
+
+                    <label class="nav__hamburger-label" for="menu">
+                        <span class="nav__hamburger-line"></span>
+                        <span class="nav__hamburger-line"></span>
+                        <span class="nav__hamburger-line"></span>
+                        <!-- <span class="">Menu</span> -->
+                    </label>
+                    <input class="nav__hamburger-checkbox" type="checkbox" id="menu">
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#cus--discover">DOWNLOAD</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#cus--unlimited">FEATURES</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#cus--friends">CONTACT</a></li>
+                    </ul>
+
+
+
+                </div>
+            </div>
+        </nav>
+
+        <section class="container newage">
+            <div class="row p-5 d-flex flex-column flex-md-row align-items-center h-100">
+                <div class="column--default-12 column--tablet-6 pb-5 mb-5">
+                    <h1 class="cus--nav-h1 text-white text-center text-md-left p-md-4 mb-5 mb-md-0"
+                        style="line-height: 50px;">New Age is an app
+                        landing
+                        page
+                        that will
+                        help you
+                        beautifully showcase
+                        your new mobile app, or anything else!</h1>
+                    <div class="d-flex d-md-block justify-content-center">
+                        <button class="cus--btn ml-md-4">START NOW FOR FREE</button>
+                    </div>
+                </div>
+                <div
+                    class="column--default-12 column--tablet-6 cus--mobil d-flex justify-content-center align-items-center">
+                    <img class="cus--mobil-img1" src="./img/phone.png" alt="Mobil kép">
+                    <img class="cus--mobil-img2" src="./img/demo-screen-1.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section id="cus--discover">
+        <h1 class="cus--discover-h1">Discover what all the buzz is about</h1>
+        <p style="width: 400px;">Our app is available on any device! Download now to get started!</p>
+        <div class="row flex-column flex-md-row">
+            <div class="column--tablet-6 d-flex justify-content-end p-2 p-md-1">
+                <a href="https://play.google.com">
+                    <img src="./img/google-play-badge.svg" alt="" style="height: 40px;">
+                </a>
+            </div>
+            <div class="column--tablet-6 d-flex justify-content-start p-2 p-md-1">
+                <a href="https://www.apple.com/hu/shop">
+                    <img src="./img/app-store-badge.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cus--unlimited" class="container p-5">
+        <div class="d-flex flex-column align-items-center" style="width:100%">
+            <h1>Unlimited Features, Unlimited Fun</h1>
+            <p style="font-size: 13px;">Check out what you can do with this app theme!</p>
+            <div class="cus--unlimited-br"></div>
+        </div>
+        <div class="row flex-column flex-md-row mt-5">
+            <div class="column--tablet-4 d-flex cus--mobil justify-content-center align-items-center mt-5 mb-5">
+                <img class="cus--mobil-img1" src="./img/phone.png" alt="">
+                <img class="cus--mobil-img2" src="./img/demo-screen-1.jpg" alt="">
+            </div>
+            <div class="column--tablet-8 d-flex flex-column justify-content-center">
+                <div class="row d-flex flex-column flex-md-row">
+                    <div class="column--tablet-6 text-center d-flex flex-column justify-content-center p-5">
+                        <div class="cus--icon">
+                            <i class="icon-screen-smartphone"></i>
+                        </div>
+                        <h4>Device Mockups</h4>
+                        <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                    </div>
+                    <div class="column--tablet-6 text-center  d-flex flex-column justify-content-center p-5">
+                        <div class="cus--icon">
+                            <div>
+                                <i class="icon-camera"></i>
+                            </div>
+                        </div>
+                        <h4>Flexible Use</h4>
+                        <p>Put an image, video, animation, or anything else in the screen!</p>
+                    </div>
+                </div>
+                <div class="row d-flex flex-column flex-md-row">
+                    <div class="column--tablet-6 text-center d-flex flex-column justify-content-center p-5">
+                        <div class="cus--icon">
+                            <i class="icon-present"></i>
+                        </div>
+                        <h4>Free to Use</h4>
+                        <p>As always, this theme is free to download and use for any purpose!</p>
+                    </div>
+                    <div class="column--tablet-6 text-center d-flex flex-column justify-content-center p-5">
+                        <div class="cus--icon">
+                            <i class="icon-lock-open"></i>
+                        </div>
+                        <h4>Open Source</h4>
+                        <p>Since this theme is MIT licensed, you can use it commercially!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cus--cta">
+        <div class="container text-white flex-column justify-content-center align-items-start" style="height: 100%;">
+            <h1 class="cta-h1">Stop waiting.</h1>
+            <h1 class="cta-h1">Start building.</h1>
+            <button class="cus--btn mt-3">LET'S GET STARTED</button>
+        </div>
+    </section>
+
+    <section id="cus--friends" class="d-flex flex-column justify-content-center align-items-center">
+        <h1>We <span style="color: red;"> &#10084;</span> new friends!</h1>
+
+        <div class="mt-3 pb-5 d-flex justify-content-center">
+            <a href="https://twitter.com" class="dot twitter-blue mr-2" data-toggle="tooltip" data-placement="top"
+                title="Twitter">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://facebook.com" class="dot facebook-blue mr-2" data-toggle="tooltip" data-placement="top"
+                title="Facebook">
+                <i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+            <a href="https://google.hu" class="dot google-red mr-2" data-toggle="tooltip" data-placement="top"
+                title="Google plus">
+                <i class="fab fa-google-plus-g fa-2x"></i>
+            </a>
+        </div>
+    </section>
+
+    <footer class="text-center text-secondary py-3">
+        <p>&copy; Your Website 2021 All Rights Reserved</p>
+
+        <button class="mr-2 btn-privacy btn-any" tabindex="-1">Privacy</button>
+        <button class="mr-2 btn-terms btn-any" tabindex="-1">Terms</button>
+        <button class="btn-faq btn-any" tabindex="-1">FAQ</button>
+
+    </footer>
+    <div class="backdrop fade-in">
+        <div id="modal-1" class="modal fade-in">
+            <div class="modal__close" tabindex="0">
+                <div class="modal__close--bar1" tabindex="0">
+                    <div class="modal__close--bar2"></div>
+                </div>
+            </div>
+            <h3 class="modal__title">Privacy üzenet</h3>
+            <p class="modal__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis
+            </p>
+            <div class="modal__buttons">
+                <button class="btn-modal btn-close">Bezár</button>
+            </div>
+        </div>
+        <div id="modal-2" class="modal fade-in">
+            <div class="modal__close" tabindex="0">
+                <div class="modal__close--bar1" tabindex="0">
+                    <div class="modal__close--bar2"></div>
+                </div>
+            </div>
+            <h3 class="modal__title">Terms üzenet</h3>
+            <p class="modal__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis
+            </p>
+            <div class="modal__buttons">
+                <button class="btn-modal btn-close">Bezár</button>
+            </div>
+        </div>
+        <div id="modal-3" class="modal fade-in">
+            <div class="modal__close" tabindex="0">
+                <div class="modal__close--bar1" tabindex="0">
+                    <div class="modal__close--bar2"></div>
+                </div>
+            </div>
+            <h3 class="modal__title">FAQ üzenet</h3>
+            <p class="modal__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius perspiciatis
+            </p>
+            <div class="modal__buttons">
+                <button class="btn-modal btn-close">Bezár</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/modal.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+#cus--friends {
+    height: 35vh;
+    background-color: $cus-yellow;
+}
+
+.dot {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+
+    &:hover {
+        text-decoration: none;
+        opacity: 1;
+        color: white
+    }
+}
+
+.twitter-blue {
+    background-color: rgb(29,161,242);
+}
+.facebook-blue {
+    background-color: rgb(59,89,152);
+}
+.google-red {
+    background-color: rgb(211,72,54);
+}

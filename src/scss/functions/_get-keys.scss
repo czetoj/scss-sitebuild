@@ -1,0 +1,13 @@
+@function get-keys($string, $separator: "-") {
+    $keys: ();
+    $index: str-index($string, $separator);   // az import miatt a globális névtérben a string-et így érjük el
+    
+    @while $index {
+        $key: str-slice($string, 1, $index - 1);
+        $keys: append($keys, $key);                  // a list pedig elérhető globálisan list nélkül
+        $string: str-slice($string, $index + 1);
+        $index: str-index($string, $separator);
+    }
+    $keys: append($keys, $string);
+    @return $keys;
+}

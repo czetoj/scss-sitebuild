@@ -1,0 +1,35 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+h1 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.cus--btn {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+
+p, small, span, footer {
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+
+.text-white {
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+.text-md-left {
+    @media (min-width: 992px) {
+        text-align: left;
+    }
+}
+.text-secondary {
+    color: grey;
+}

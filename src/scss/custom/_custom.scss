@@ -1,0 +1,37 @@
+@import './discover';
+@import './flex';
+@import './padding-margin';
+@import './footer';
+@import './typography';
+@import './cta';
+@import './button';
+@import './friends';
+@import './unlimited';
+@import './mobil';
+@import './modal';
+@import './nav';
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli-ExtraLight.ttf');
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../img/bg-pattern.png), linear-gradient(to right, rgb(226,55,67), rgb(173,51,98), rgb(142,32,175));
+    background-repeat: repeat;
+    min-height: 100vh;
+}
+
