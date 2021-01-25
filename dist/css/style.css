@@ -534,11 +534,42 @@ a {
   justify-content: center;
   align-items: center;
   opacity: 0.9;
+  position: relative;
 }
 .dot:hover {
   text-decoration: none;
   opacity: 1;
   color: white;
+}
+
+.tooltip-facebook {
+  display: none;
+  position: absolute;
+  top: -1.5rem;
+  right: translate(-50%);
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.tooltip-twitter {
+  display: none;
+  position: absolute;
+  top: -1.5rem;
+  right: translate(-50%);
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.tooltip-google {
+  display: none;
+  position: absolute;
+  top: -1.5rem;
+  right: translate(-50%);
+  background-color: black;
+  color: white;
+  border-radius: 8px;
 }
 
 .twitter-blue {
